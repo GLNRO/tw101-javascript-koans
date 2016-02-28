@@ -16,5 +16,7 @@ $(document).ready(function() {
 
     // Problem 5
     // call your problem 5 code here
+    var ad = [["zara", " dhyaan", " dein"], [" mazarat", " chahenge"], [" attention", " please"]];
+    fixAd(ad);
 
 });

@@ -34,3 +34,27 @@
  */
 
 // Write your JavaScript here
+
+function changeElementText(element, answer) {
+    $(element).text(answer);
+}
+
+function fixAd(adText){
+    changeElementText("#originalAd", adText);
+    var reversedAd = [];
+
+    for(var i=0;i<adText.length;i++){
+
+        if(i==1){
+            reversedAd.push(adText[i].reverse());
+        }
+        else {
+            reversedAd.push(adText[i])
+        }
+    }
+
+
+
+    changeElementText("#newAd", reversedAd);
+
+}
