@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
     // Problem 1
+    debugger
     kiteGame(100);
 
     // Problem 2
