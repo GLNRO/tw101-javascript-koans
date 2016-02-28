@@ -26,4 +26,18 @@
 
 */
 
-// Write your JavaScript here
+function changeElementText(element, answer) {
+    $(element).text(answer);
+}
+
+function countMoney(stack){
+
+    var total=0;
+
+    for(var i=0;i<stack.length;i++){
+        total += stack[i];
+    }
+
+    changeElementText("#totalCount", total);
+
+}
